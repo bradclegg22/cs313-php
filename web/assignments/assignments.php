@@ -1,5 +1,5 @@
-<?php include('template.php'); ?>
-<head>
-    <title>assignments page</title>
-</head>
+<?php 
+$title = "assignments page";
+include('template.php');
+?>
 <body>comming soon</body>
