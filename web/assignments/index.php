@@ -8,8 +8,8 @@
     <body>
         <header>
             <nav>
-                <a href="assignments/home.php">Home</a>
-                <a class="nav2" href="assignments/assighnments.php">Assignments</a>
+                <a href="home.php">Home</a>
+                <a class="nav2" href="assighnments.php">Assignments</a>
             </nav>
         </header>
         <img src="me.jpg" alt="me and my wife"/>
