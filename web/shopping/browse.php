@@ -5,8 +5,4 @@
     $title = "browse";
 ?>
 <title><?php echo $title; ?></title>
-<body>
-<?php 
-echo $_GET["Master Sword"];  
-?>
-</body>
+
