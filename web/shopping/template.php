@@ -12,6 +12,5 @@
                 <a href="view.php">View Cart</a>
             </nav>
         </header>
-        
     </body>
 </html>
