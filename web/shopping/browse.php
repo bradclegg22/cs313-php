@@ -2,8 +2,9 @@
     session_start();
     include('template.php');
     include('products.php');
+    $title = 'browse';
 ?>
-<title>Browse</title>
+<title><?php echo $title ?></title>
 <body>
 <?php 
 echo $_GET["Master Sword"];  
