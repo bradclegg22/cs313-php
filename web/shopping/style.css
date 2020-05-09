@@ -27,3 +27,11 @@ header {
     border-bottom-right-radius: 10px;
 }
 
+img {
+    height: 15%;
+    width: 15%;
+}
+
+a {
+    text-decoration: none;
+}
