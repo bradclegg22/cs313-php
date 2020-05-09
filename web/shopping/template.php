@@ -1,8 +1,12 @@
+<?php 
+$session_start();
+$title = template;
+?>
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
-        <title>template</title>
+        <title><?php echo $title ?></title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
