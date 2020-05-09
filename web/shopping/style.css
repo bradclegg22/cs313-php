@@ -28,10 +28,10 @@ header {
 }
 
 img {
-    height: 15%;
+    height: 25%;
     width: 15%;
-    position: relative;
-    bottom: 29px;
+    position: absolute;
+    bottom: 385px;
 }
 
 nav {
