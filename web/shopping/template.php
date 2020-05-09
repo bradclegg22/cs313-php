@@ -8,6 +8,8 @@
     <body>
         <header>
             <nav>
+                <a href="browse.php">Home</a>
+                <a href="view.php">View Cart</a>
             </nav>
         </header>
         

@@ -2,3 +2,27 @@
     margin: 0;
     padding: 0;
 }
+
+html {
+   background-color: black;
+    height: 100%;
+    width: 100%; 
+}
+
+body {
+    width: 66%;
+    height: 100%;
+    background-color: #006400;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: solid #1f618d 10px;
+    border-right: solid #1f618d 10px;
+}
+
+header {
+    height: 85px;
+    width: 100%;
+    background-color: #ffd80d;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
