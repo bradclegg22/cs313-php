@@ -4,7 +4,7 @@
     include('products.php');
     $title = 'browse';
 ?>
-<title><?php echo $title ?></title>
+<title><?php echo $title; ?></title>
 <body>
 <?php 
 echo $_GET["Master Sword"];  
