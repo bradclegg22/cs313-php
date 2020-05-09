@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    height: 85px;
+    height: 95px;
     width: 100%;
     background-color: #ffd80d;
     border-bottom-left-radius: 10px;
@@ -30,8 +30,18 @@ header {
 img {
     height: 15%;
     width: 15%;
+    position: relative;
+    bottom: 29px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around
 }
 
 a {
     text-decoration: none;
+    color: #1f618d;
+    font-size: 26px;
+    margin-top: 27px;
 }
