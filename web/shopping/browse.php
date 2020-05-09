@@ -4,5 +4,5 @@
     include('products.php');
     $title = "browse";
 ?>
-<title><?php echo $title; ?></title>
+
 
