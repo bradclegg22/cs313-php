@@ -9,7 +9,7 @@
         <header>
             <nav>
                 <a href="browse.php">Home</a>
-                <img src="headerimg.png" alt="header img"/>
+                <img src="headerimg.png" transparent alt="header img"/>
                 <a href="view.php">View Cart</a>
             </nav>
         </header>
