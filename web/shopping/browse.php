@@ -6,10 +6,10 @@
 ?>
 
 <body>
-    <form action="view.php" method="get">
-        <p><input type="hidden" name="<?php echo $products[0]["name"];?>"></p>
-        <p><input type="hidden" name="<?php echo $products[0]["price"];?>"></p>
-        <p><input type="hidden" name="<?php echo $products[0]["description"];?>"></p>
+    <form action="view.php" method="post">
+        <p><?php echo $products[0]["name"];?></p>
+        <p><?php echo $products[0]["price"];?></p>
+        <p><?php echo $products[0]["description"];?></p>
         <input type="button" name="submite" value="submit">
     
     <br>
