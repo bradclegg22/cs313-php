@@ -5,4 +5,5 @@
     include('products.php');
 ?>
 
+<body><?php echo $_POST["Master Sword"]; ?></body>
 
