@@ -2,4 +2,6 @@
 $title = "assignments page";
 include('template.php');
 ?>
-<body>comming soon</body>
+<body>
+    <a href="https://mighty-atoll-23246.herokuapp.com/shopping/browse.php">Week 3 shopping cart</a>
+</body>
