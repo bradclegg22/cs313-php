@@ -1,5 +1,6 @@
 <?php 
 session_start();
+include('template.php');
 
 if (empty($_SESSION['cart'])) {
 $_SESSION['cart'] = array();
