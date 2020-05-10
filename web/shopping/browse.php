@@ -5,5 +5,5 @@
     include('products.php');
 ?>
 
-<body><?php echo $products["name"]; ?></body>
+<body><?php echo $products[0]["name"]; ?></body>
 
