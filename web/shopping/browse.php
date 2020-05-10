@@ -6,11 +6,9 @@
 ?>
 
 <body>
-    <form action="view.php" method="post">
-        <p><?php echo $products[0]["name"]; $_SESSION['1'] = $products[0]["name"]; ?></p>
-        <p><?php echo $products[0]["price"];?></p>
-        <p><?php echo $products[0]["description"];?></p>
-        <input type="button" name="submite" value="submit">
+    <p><input type="hidden" name="product" value="<?php echo $products[0]["name"];?>"></p>
+    <p><?php echo $products[0]["price"];?></p>
+    <p><?php echo $products[0]["description"];?></p>
     
     <br>
     <p><?php echo $products[1]["name"]; ?></p>
