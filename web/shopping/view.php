@@ -3,5 +3,5 @@
     include('template.php');
 ?>
 <body>
-<?php echo $_session['1']; ?>
+<?php echo $_SESSION['1']; ?>
 </body>
