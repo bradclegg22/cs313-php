@@ -1,7 +1,7 @@
 <?php 
     session_start();
     include('template.php');
-?>
-<body>
 
-</body>
+var_dump($_SESSION['cart']);
+?>
+

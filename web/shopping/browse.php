@@ -6,14 +6,10 @@
 ?>
 
 <body>
-    <p><?php echo $products[0]["name"];?>></p>
+    <p><?php echo $products[0]["name"];?></p>
     <p><?php echo $products[0]["price"];?></p>
     <p><?php echo $products[0]["description"];?></p>
-    <form action="view.php" method="get">
-        <input type="hidden" name="product" value="'<?php echo $products[0]["name"];?>'">
-        <input type="submit" value="add to cart">
-        </form>
-    
+    <a href="view.php?id=1">Add to cart</a>
     <br>
     <p><?php echo $products[1]["name"]; ?></p>
     <p><?php echo $products[1]["price"]; ?></p>
