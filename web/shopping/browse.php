@@ -6,7 +6,7 @@
 ?>
 
 <body>
-    <p><input type="hidden" name="product" value="<?php echo $products[0]["name"];?>"></p>
+    <p><input type="hidden" name="product" value="'<?php echo $products[0]["name"];?>'"></p>
     <p><?php echo $products[0]["price"];?></p>
     <p><?php echo $products[0]["description"];?></p>
     
