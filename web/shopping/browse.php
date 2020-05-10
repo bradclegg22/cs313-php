@@ -5,5 +5,10 @@
     include('products.php');
 ?>
 
-<body><?php echo $products[0]["name"]; ?></body>
+<body>
+    <p><?php echo $products[0]["name"]; ?></p>
+    <p><?php echo $products[0]["price"]; ?></p>
+    <p><?php echo $products[0]["description"]; ?></p>
+
+</body>
 
