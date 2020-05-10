@@ -6,9 +6,13 @@
 ?>
 
 <body>
-    <p><?php echo $products[0]["name"]; ?></p>
-    <p><?php echo $products[0]["price"]; ?></p>
-    <p><?php echo $products[0]["description"]; ?></p><br>
+    <form action="view.php" method="post">
+        <p><input type="text" name="<?php echo $products[0]["name"];?>"></p>
+        <p><input type="text" name="<?php echo $products[0]["price"];?>"></p>
+        <p><input type="text" name="<?php echo $products[0]["description"];?>"></p>
+        <input type="button" name="submite" value="submit">
+    
+    <br>
     <p><?php echo $products[1]["name"]; ?></p>
     <p><?php echo $products[1]["price"]; ?></p>
     <p><?php echo $products[1]["description"]; ?></p><br>
