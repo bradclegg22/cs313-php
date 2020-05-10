@@ -9,7 +9,7 @@
     <p><?php echo $products[0]["name"];?></p>
     <p><?php echo $products[0]["price"];?></p>
     <p><?php echo $products[0]["description"];?></p>
-    <a href="view.php?id=1">Add to cart</a>
+    <a href="addtocart.php">Add to cart</a>
     <br>
     <p><?php echo $products[1]["name"]; ?></p>
     <p><?php echo $products[1]["price"]; ?></p>
