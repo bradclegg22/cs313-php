@@ -1,0 +1,25 @@
+2020-05-12 13:27:21.670 MDT [4232] FATAL:  password authentication failed for user "18012"
+2020-05-12 13:27:21.670 MDT [4232] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-12 13:27:25.137 MDT [32920] FATAL:  password authentication failed for user "18012"
+2020-05-12 13:27:25.137 MDT [32920] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-12 13:31:32.075 MDT [31128] FATAL:  password authentication failed for user "18012"
+2020-05-12 13:31:32.075 MDT [31128] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-12 13:31:34.993 MDT [10588] FATAL:  password authentication failed for user "18012"
+2020-05-12 13:31:34.993 MDT [10588] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-12 13:31:40.757 MDT [30644] FATAL:  password authentication failed for user "18012"
+2020-05-12 13:31:40.757 MDT [30644] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-12 13:31:44.024 MDT [31228] FATAL:  password authentication failed for user "18012"
+2020-05-12 13:31:44.024 MDT [31228] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-12 14:17:24.148 MDT [32400] FATAL:  password authentication failed for user "18012"
+2020-05-12 14:17:24.148 MDT [32400] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-12 14:17:26.979 MDT [31756] FATAL:  password authentication failed for user "18012"
+2020-05-12 14:17:26.979 MDT [31756] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-13 02:10:01.331 MDT [6228] LOG:  received fast shutdown request

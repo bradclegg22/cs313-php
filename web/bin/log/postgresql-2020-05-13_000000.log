@@ -1,0 +1,5 @@
+2020-05-13 02:10:01.341 MDT [6228] LOG:  aborting any active transactions
+2020-05-13 02:10:01.346 MDT [6532] ERROR:  canceling statement due to user request
+2020-05-13 02:10:01.353 MDT [6228] LOG:  background worker "logical replication launcher" (PID 6532) exited with exit code 1
+2020-05-13 02:10:01.359 MDT [6472] LOG:  shutting down
+2020-05-13 02:10:01.391 MDT [6228] LOG:  database system is shut down

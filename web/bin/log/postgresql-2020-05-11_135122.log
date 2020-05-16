@@ -1,0 +1,56 @@
+2020-05-11 13:51:22.410 MDT [6436] LOG:  database system was shut down at 2020-05-11 13:50:48 MDT
+2020-05-11 13:51:22.433 MDT [6228] LOG:  database system is ready to accept connections
+2020-05-11 15:01:58.510 MDT [14264] FATAL:  password authentication failed for user "18012"
+2020-05-11 15:01:58.510 MDT [14264] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-11 15:02:04.327 MDT [8080] FATAL:  password authentication failed for user "18012"
+2020-05-11 15:02:04.327 MDT [8080] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-11 15:11:28.842 MDT [10276] FATAL:  password authentication failed for user "18012"
+2020-05-11 15:11:28.842 MDT [10276] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-11 15:11:31.009 MDT [1312] FATAL:  password authentication failed for user "18012"
+2020-05-11 15:11:31.009 MDT [1312] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-11 15:11:34.941 MDT [11664] FATAL:  password authentication failed for user "18012"
+2020-05-11 15:11:34.941 MDT [11664] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-11 15:11:39.934 MDT [10076] FATAL:  password authentication failed for user "18012"
+2020-05-11 15:11:39.934 MDT [10076] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-11 15:11:53.708 MDT [11960] FATAL:  password authentication failed for user "18012"
+2020-05-11 15:11:53.708 MDT [11960] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-11 15:11:59.566 MDT [14280] FATAL:  password authentication failed for user "18012"
+2020-05-11 15:11:59.566 MDT [14280] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-11 15:12:08.864 MDT [10412] FATAL:  password authentication failed for user "18012"
+2020-05-11 15:12:08.864 MDT [10412] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-11 15:12:12.034 MDT [8460] FATAL:  password authentication failed for user "18012"
+2020-05-11 15:12:12.034 MDT [8460] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-11 15:12:20.944 MDT [500] FATAL:  password authentication failed for user "18012"
+2020-05-11 15:12:20.944 MDT [500] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-11 15:12:23.749 MDT [11020] FATAL:  password authentication failed for user "18012"
+2020-05-11 15:12:23.749 MDT [11020] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-11 15:12:27.569 MDT [7272] FATAL:  password authentication failed for user "18012"
+2020-05-11 15:12:27.569 MDT [7272] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-11 15:12:30.402 MDT [4652] FATAL:  password authentication failed for user "18012"
+2020-05-11 15:12:30.402 MDT [4652] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-11 15:14:51.577 MDT [15200] FATAL:  password authentication failed for user "18012"
+2020-05-11 15:14:51.577 MDT [15200] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-11 15:14:54.357 MDT [780] FATAL:  password authentication failed for user "18012"
+2020-05-11 15:14:54.357 MDT [780] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-11 15:15:56.325 MDT [8948] FATAL:  password authentication failed for user "18012"
+2020-05-11 15:15:56.325 MDT [8948] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2020-05-11 15:15:58.665 MDT [5308] FATAL:  password authentication failed for user "18012"
+2020-05-11 15:15:58.665 MDT [5308] DETAIL:  Role "18012" does not exist.
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"

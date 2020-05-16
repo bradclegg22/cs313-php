@@ -1,0 +1,7 @@
+2020-05-11 13:33:01.706 MDT [192180] LOG:  database system was shut down at 2020-05-11 13:32:52 MDT
+2020-05-11 13:33:01.732 MDT [192404] LOG:  database system is ready to accept connections
+2020-05-11 13:43:30.864 MDT [192404] LOG:  received fast shutdown request
+2020-05-11 13:43:30.869 MDT [192404] LOG:  aborting any active transactions
+2020-05-11 13:43:30.875 MDT [192404] LOG:  background worker "logical replication launcher" (PID 187320) exited with exit code 1
+2020-05-11 13:43:30.882 MDT [191224] LOG:  shutting down
+2020-05-11 13:43:30.919 MDT [192404] LOG:  database system is shut down
