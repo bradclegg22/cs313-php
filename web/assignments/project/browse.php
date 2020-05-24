@@ -2,7 +2,7 @@
     session_start();
     $title = "browse";
     include('template.php');
-    require 'connectdp.php';
+    include('connectdp.php');
     $db = get_db();
 ?>
 
