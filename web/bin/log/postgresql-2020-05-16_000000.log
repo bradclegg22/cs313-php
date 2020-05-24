@@ -1,0 +1,6 @@
+2020-05-16 23:04:20.214 MDT [6340] LOG:  received fast shutdown request
+2020-05-16 23:04:20.223 MDT [6340] LOG:  aborting any active transactions
+2020-05-16 23:04:20.232 MDT [7028] ERROR:  canceling statement due to user request
+2020-05-16 23:04:20.242 MDT [6340] LOG:  background worker "logical replication launcher" (PID 7028) exited with exit code 1
+2020-05-16 23:04:20.250 MDT [6976] LOG:  shutting down
+2020-05-16 23:04:20.293 MDT [6340] LOG:  database system is shut down
