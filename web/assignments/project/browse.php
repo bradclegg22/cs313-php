@@ -14,7 +14,9 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
   echo '<br>';
   echo $row['price'] . ' Ruppees.';
   echo '<br>';
-  echo $row['description'];
+  echo $row['description']; 
+  echo '<br>';
+  echo '<a href='addtocart.php'>Add to cart</a>;
   echo '<br>';
   echo '<br>';
 }
@@ -26,6 +28,8 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
   echo '<br>';
   echo $row['description'];
   echo '<br>';
+  echo '<a href='addtocart.php'>Add to cart</a>;
+  echo '<br>';
   echo '<br>';
 }
     foreach ($db->query('SELECT name, price, description FROM products WHERE id = 3') as $row)
@@ -36,6 +40,8 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
   echo '<br>';
   echo $row['description'];
   echo '<br>';
+  echo '<a href='addtocart.php'>Add to cart</a>;
+  echo '<br>';
   echo '<br>';
 }
     foreach ($db->query('SELECT name, price, description FROM products WHERE id = 4') as $row)
@@ -45,6 +51,8 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
   echo $row['price'] . ' Ruppees.';
   echo '<br>';
   echo $row['description'];
+  echo '<br>';
+  echo '<a href='addtocart.php'>Add to cart</a>;
   echo '<br>';
   echo '<br>';
 }
