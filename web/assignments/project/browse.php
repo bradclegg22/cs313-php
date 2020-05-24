@@ -8,10 +8,10 @@
 
 <body>
 <?php
-foreach ($db->query('SELECT * FROM products') as $row)
+foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1') as $row)
 {
   echo $row['name'];
-  echo $row['price'] . 'Ruppees.';
+  echo $row['price'];
   echo $row['description'];
 }    
 ?>
