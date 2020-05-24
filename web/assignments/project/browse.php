@@ -15,8 +15,8 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
   echo $row['price'] . ' Ruppees.';
   echo '<br>';
   echo $row['description'];
-  echo '<br>'
-  echo '<br>'
+  echo '<br>';
+  echo '<br>';
 }
     foreach ($db->query('SELECT name, price, description FROM products WHERE id = 2') as $row)
 {
@@ -25,8 +25,8 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
   echo $row['price'] . ' Ruppees.';
   echo '<br>';
   echo $row['description'];
-  echo '<br>'
-  echo '<br>'
+  echo '<br>';
+  echo '<br>';
 }
     foreach ($db->query('SELECT name, price, description FROM products WHERE id = 3') as $row)
 {
@@ -35,8 +35,8 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
   echo $row['price'] . ' Ruppees.';
   echo '<br>';
   echo $row['description'];
-  echo '<br>'
-  echo '<br>'
+  echo '<br>';
+  echo '<br>';
 }
     foreach ($db->query('SELECT name, price, description FROM products WHERE id = 4') as $row)
 {
@@ -45,8 +45,8 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
   echo $row['price'] . ' Ruppees.';
   echo '<br>';
   echo $row['description'];
-  echo '<br>'
-  echo '<br>'
+  echo '<br>';
+  echo '<br>';
 }
     
 ?>
