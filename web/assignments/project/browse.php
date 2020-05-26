@@ -20,6 +20,14 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
   echo '<br>';
   echo '<br>';
 }
+    ?>
+  <form method="post" action="index.php?action=add&id=<?php echo $row["id"]; ?>">
+    <input type="text" name="quantity" value="1"/>
+    <input type="hidden" name="hidden_name" value="<?php echo $row["name"]; ?>"/>
+    <input type="hidden" name="hidden_price" value="<?php echo $row["price"]; ?>"/>
+    <input type="submit" name="add_to_cart" value="Add to Cart"/>
+  </form> 
+    
     foreach ($db->query('SELECT name, price, description FROM products WHERE id = 2') as $row)
 {
   echo $row['name'];
