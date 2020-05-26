@@ -15,10 +15,6 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
   echo $row['price'] . ' Ruppees.';
   echo '<br>';
   echo $row['description']; 
-  echo '<br>';
-  echo "<a href='view.php'>Add to cart</a>";
-  echo '<br>';
-  echo '<br>';
 }
     ?>
   <form method="post" action="index.php?action=add&id=<?php echo $row["id"]; ?>">
@@ -26,8 +22,9 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
     <input type="hidden" name="hidden_name" value="<?php echo $row["name"]; ?>"/>
     <input type="hidden" name="hidden_price" value="<?php echo $row["price"]; ?>"/>
     <input type="submit" name="add_to_cart" value="Add to Cart"/>
-  </form> 
-    
+  </form>
+  <br>
+    <?php
     foreach ($db->query('SELECT name, price, description FROM products WHERE id = 2') as $row)
 {
   echo $row['name'];
