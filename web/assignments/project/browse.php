@@ -9,8 +9,7 @@
 <body>
 <?php
 $statement = $db->query('SELECT name, price, description FROM products WHERE id = 1');
-$results = $statement->fetchAll(PDO::FETCH_ASSOC);
-$row = $results;
+$row = $statement->fetchAll(PDO::FETCH_ASSOC);
 ?>
     <p><?php echo $row['name']; ?></p>
     <p><?php echo $row['price']; ?></p>
