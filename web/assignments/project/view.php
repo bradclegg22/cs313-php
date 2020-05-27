@@ -6,5 +6,5 @@
 ?>
 
 <body>
-    <?php $_SESSION['name']?>
+    
 </body>
