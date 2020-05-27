@@ -8,18 +8,18 @@
 
 <body>
 <?php
-$statement = $db->query('SELECT name, price, description FROM products WHERE id = 1');
-$row = $statement->fetchAll(PDO::FETCH_ASSOC);
-?>
-    <p><?php echo $row['name']; ?></p>
-    <p><?php echo $row['price']; ?></p>
-    <p><?php echo $row['description']; ?></p>
-<!--<form action="addtocart.php" method"post">
-    <input type="hidden" name="picturenum"/>
-    <input type="submit" name="Submit" value="Submit!" />
-</form> -->
-    <?php
-
+foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1') as $row)
+{
+  echo $row['name'];
+  echo '<br>';
+  echo $row['price'] . ' Ruppees.';
+  echo '<br>';
+  echo $row['description']; 
+  echo '<form method="POST" action="addtocart.php">
+        <input type="hidden" name="name" value="name"/>
+        <input type="submit" value="submit"/>
+        </form>';
+}
     foreach ($db->query('SELECT name, price, description FROM products WHERE id = 2') as $row)
 {
   echo $row['name'];
