@@ -15,10 +15,11 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
   echo $row['price'] . ' Ruppees.';
   echo '<br>';
   echo $row['description']; 
-  echo '<form method="POST" action="addtocart.php">
+  echo '<form method="POST" action="view.php">
         <input type="hidden" name="name" value="name"/>
         <input type="submit" value="submit"/>
-        </form>';
+        </form>
+        <br>';
 }
     foreach ($db->query('SELECT name, price, description FROM products WHERE id = 2') as $row)
 {
