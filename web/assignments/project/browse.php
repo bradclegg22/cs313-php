@@ -20,6 +20,7 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
         <input type="submit" value="submit"/>
         </form>
         <br>';
+    $_SESSION['name'] = $_POST['name'];
 }
     foreach ($db->query('SELECT name, price, description FROM products WHERE id = 2') as $row)
 {

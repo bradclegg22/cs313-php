@@ -5,3 +5,6 @@
     $db = get_db();
 ?>
 
+<body>
+    <?php $_SESSION['name']?>
+</body>
