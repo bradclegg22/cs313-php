@@ -12,9 +12,9 @@ $statement = $db->query('SELECT name, price, description FROM products WHERE id 
 $results = $statement->fetchAll(PDO::FETCH_ASSOC);
 $row = $results;
 ?>
-    <p><?php echo $row['name'] ?></p>
-    <p><?php echo $row['price'] ?></p>
-    <p><?php echo $row['description'] ?></p>
+    <p><?php echo $row['name']; ?></p>
+    <p><?php echo $row['price']; ?></p>
+    <p><?php echo $row['description']; ?></p>
 <!--<form action="addtocart.php" method"post">
     <input type="hidden" name="picturenum"/>
     <input type="submit" name="Submit" value="Submit!" />
