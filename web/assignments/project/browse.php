@@ -4,7 +4,6 @@
     date_default_timezone_set('America/Denver');
     include('template.php');
     include('connectdp.php');
-    include ('comments.php');
     $db = get_db();
 ?>
 
