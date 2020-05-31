@@ -60,7 +60,7 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
     
 ?>
     
-<h2>Comments section</h2>
+<h2>Comments on a product</h2>
     <?php 
     echo "<form method='POST' action='comments.php'>
         <input type='hidden' name='userid' value='anonymous'>
