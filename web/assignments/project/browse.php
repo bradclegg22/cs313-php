@@ -60,7 +60,7 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
     
 ?>
     
-<h2>Comments on a product</h2>
+<h2>Comment on a product</h2>
     <?php 
     echo "<form method='POST' action='comments.php'>
         <input type='hidden' name='userid' value='anonymous'>
@@ -71,7 +71,7 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
     ?>
     <h2>Comment Section</h2>
     <?php
-    $statement = $db->prepare('SELECT userid, date, comment FROM comments');
+    $statement = $db->prepare('SELECT userid, date, message FROM comments');
 	$statement->execute();
     
     while ($row = $statement->fetch(PDO::FETCH_ASSOC))
