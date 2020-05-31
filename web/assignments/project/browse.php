@@ -79,11 +79,11 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
         echo '<div class="comment">' . '<p>';
         echo $row['userid'] . ' ' . $row['date'] . '<br>';
         echo $row['message'] . '</p>' . '<br><br>';
-        echo '</div>';
         echo "<form class='delete' method='POST' action='deleteComment.php'>
         <input type='hidden' name='cid' value='".$row['cid']."'>
         <button type='submit' name='delete'>Delete</button>
         </form>";
+        echo '</div>';
     }
     ?>
 </body>
