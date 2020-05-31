@@ -70,5 +70,6 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
         <button type='submit' name='submit'>Comment</button>
         </form>";
     ?>
+    hello
 </body>
 
