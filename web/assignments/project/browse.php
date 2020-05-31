@@ -76,7 +76,7 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
     
     while ($row = $statement->fetch(PDO::FETCH_ASSOC))
     {
-        echo '<div class="commet>"' . '<p>';
+        echo '<div class="comment>"' . '<p>';
         echo $row['userid'] . ' ' . $row['date'] . '<br>';
         echo $row['message'] . '</p>' . '<br><br>';
         echo '</div>';
