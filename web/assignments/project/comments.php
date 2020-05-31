@@ -7,7 +7,8 @@ function setComments($db) {
         $message = $_POST['message'];
         
         $query = "INSERT INTO comments (userid, date, message) VALUES ('$userid', '$date', '$message')";
-        $results = $db->query($query);
+        $statement = $db->prepare($query);
+        $statement->execute();
     }
 }
 ?>
