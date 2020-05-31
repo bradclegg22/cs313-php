@@ -1,4 +1,5 @@
 <?php 
+$db = get_db();
 function setComments($db) {
     if(isset($_POST['commentSubmit'])) {
         $userid = $_POST['userid'];
