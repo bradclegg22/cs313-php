@@ -7,6 +7,7 @@
 require("connectdp.php");
 $db = get_db();
         
+try {
         $query = 'INSERT INTO comments (userid, date, message) VALUES (:userid, :date, :message)';
         $statement = $db->prepare($query);
         
@@ -15,4 +16,5 @@ $db = get_db();
 	   $statement->bindValue(':message', $message);
         
         $statement->execute();
+}
 ?>
