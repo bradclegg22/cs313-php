@@ -1,8 +1,10 @@
 <?php 
     session_start();
     $title = "browse";
+    date_default_timezone_set('America/Denver');
     include('template.php');
     include('connectdp.php');
+    include ('comments.php');
     $db = get_db();
 ?>
 
@@ -61,7 +63,7 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
     
 <h2>Comments section</h2>
     <?php 
-    echo "<form>
+    echo "<form method='POST' action='".setComments($db)."'>
         <input type='hidden' name='userid' value='anonymous'>
         <input type='hidden' name='date' value='".date('Y-m-d')."'>
         <textarea name='message'></textarea><br>
