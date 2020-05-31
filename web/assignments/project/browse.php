@@ -67,7 +67,7 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
         <input type='hidden' name='date' value='".date('Y-m-d')."'>
         <textarea name='message'></textarea><br>
         <button type='submit' name='commentSubmit'>Comment</button>
-        </form>";
+        </form>"
     ?>
     <h2>Comment Section</h2>
     <?php
@@ -80,6 +80,10 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
         echo $row['userid'] . ' ' . $row['date'] . '<br>';
         echo $row['message'] . '</p>' . '<br><br>';
         echo '</div>';
+        echo "<form class='delete' method='POST' action='deleteComment.php'>
+        <input type='hidden' name='cid' value='".$row['cid']."'>
+        <button type='submit' name='delete'>Delete</button>
+        </form>";
     }
     ?>
 </body>
