@@ -1,4 +1,5 @@
 <?php 
+include('connectdp.php');
 $db = get_db();
 function setComments($db) {
     if(isset($_POST['commentSubmit'])) {
