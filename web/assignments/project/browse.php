@@ -69,5 +69,16 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
         <button type='submit' name='commentSubmit'>Comment</button>
         </form>";
     ?>
+    <h2>Comment Section</h2>
+    <?php
+    $statement = $db->prepare('SELECT userid, date, comment FROM comments');
+	$statement->execute();
+    
+    while ($row = $statement->fetch(PDO::FETCH_ASSOC))
+    {
+        echo $row['userid'] . ' ' . $row['date'];
+        echo $row['messgae'];
+    }
+    ?>
 </body>
 
