@@ -81,10 +81,21 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
         echo $row['message'] . '</p>' . '<br><br>';
         echo "<form class='delete' method='POST' action='deleteComment.php'>
         <input type='hidden' name='cid' value='".$row['cid']."'>
+        <input type='hidden' name='date' value='".date('Y-m-d')."'>
         <button type='submit' name='delete'>Delete</button>
         </form>";
         echo '</div>';
     }
+    
+    while ($row = $statement->fetch(PDO::FETCH_ASSOC))
+    {
+        echo "<form method='POST' action='updateComment.php'>
+        <input type='hidden' name='cid' value='".$row['cid']."'>
+        <input type='hidden' name='date' value='".date('Y-m-d')."'>
+        <textarea name='message'>'".$message."</textarea>
+        <button type='submit' name='update'>Update'</button>
+        </form>";
+     }
     ?>
 </body>
 

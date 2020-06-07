@@ -1,13 +1,14 @@
 <?php 
-$cid = $_POST['cid'];
+        $date = $_POST['date'];
+        $message = $_POST['message'];
 
 require("connectdp.php");
 $db = get_db();
         
 try {
-        $query = "DELETE FROM comments WHERE cid='$cid'";
+        $query = "UPDATE comments SET date = '$date', message = '$message' WHERE cid='$cid'";
         $statement = $db->prepare($query);
-        
+
         $statement->execute();
 }
 catch (Exception $ex)
@@ -17,4 +18,4 @@ catch (Exception $ex)
 	die();
 }
 header("Location: browse.php");
- ?>
+?>
