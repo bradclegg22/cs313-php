@@ -93,11 +93,11 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
 	$statement->execute();
     while ($row = $statement->fetch(PDO::FETCH_ASSOC))
     {
-        echo "<form method='POST' action='editeComment.php'>
+        echo "<form method='POST' action='editComment.php'>
         <input type='hidden' name='cid' value='".$row['cid']."'>
         <input type='hidden' name='date' value='".date('Y-m-d')."'>
         <input type='hidden' name='message='".$row['message']."'>
-        <button type='su<input type='hidden' name='date' value='".date('Y-m-d')."'>bmit' name='update'>Update</button>
+        <button type='submit' name='update'>Update</button>
         </form>";
      }
     ?>
