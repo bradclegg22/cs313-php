@@ -93,7 +93,7 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
 	$statement->execute();
     while ($row = $statement->fetch(PDO::FETCH_ASSOC))
     {
-        echo '<div> class="comment">';
+        echo '<div class="comment">';
         echo "<form method='POST' action='editComment.php'>
         <button type='submit' name='update'>Update</button>
         </form>";
