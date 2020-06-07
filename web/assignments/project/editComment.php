@@ -11,7 +11,7 @@
     echo "<form method='POST' action='updateComment.php'>
     <input type='hidden' name='cid' value='".$row['cid']."'>
     <input type='hidden' name='date' value='".date('Y-m-d')."'>
-    <textarea name='message='></textarea>
+    <textarea name='message'></textarea>
     <button type='submit' name='update'>Comment</button>
     </form>";
         }
