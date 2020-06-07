@@ -12,7 +12,7 @@
     <input type='hidden' name='cid' value='".$row['cid']."'>
     <input type='hidden' name='date' value='".date('Y-m-d')."'>
     <textarea name='message'></textarea>
-    <button type='submit' name='update'>Comment</button>
+    <button type='submit' name='commentUpdate'>Comment</button>
     </form>";
         }
     ?>
