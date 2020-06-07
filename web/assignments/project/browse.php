@@ -91,17 +91,5 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
     }
     ?>
     
-    <?php
-    $statement = $db->prepare('SELECT cid, userid, date, message FROM comments');
-	$statement->execute();
-    while ($row = $statement->fetch(PDO::FETCH_ASSOC))
-    {
-        echo '<div class="comment">';
-        echo "<form method='POST' action='editComment.php'>
-        <button type='submit' name='update'>Update</button>
-        </form>";
-        echo '</div>';
-     }
-    ?>
 </body>
 
