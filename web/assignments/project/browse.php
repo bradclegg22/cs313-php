@@ -61,7 +61,6 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
 ?>
     
 <h2>Comment on a product</h2>
-    <?php 
         <?php
     $statement = $db->prepare('SELECT cid, userid, date, message FROM comments');
 	$statement->execute();
