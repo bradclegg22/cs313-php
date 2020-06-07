@@ -12,5 +12,6 @@
     <textarea name='message'></textarea>
     <button type='submit' name='commentSubmit'>Comment</button>
     </form>";
+    header("Location: browse.php");
     ?>
 </body>
