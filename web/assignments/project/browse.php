@@ -97,7 +97,7 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
         <input type='hidden' name='cid' value='".$row['cid']."'>
         <input type='hidden' name='date' value='".date('Y-m-d')."'>
         <textarea name='message'>'".$message."</textarea>
-        <button type='submit' name='update'>Update'</button>
+        <button type='submit' name='update'>Update</button>
         </form>";
      }
     ?>

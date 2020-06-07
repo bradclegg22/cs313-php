@@ -1,4 +1,5 @@
 <?php 
+        $cid = $_POST['cid'];
         $date = $_POST['date'];
         $message = $_POST['message'];
 
