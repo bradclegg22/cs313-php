@@ -61,27 +61,20 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
 ?>
     
 <h2>Comment on a product</h2>
-        <?php
-    $statement = $db->prepare('SELECT cid, userid, date, message FROM comments');
+    <?php 
+        $statement = $db->prepare('SELECT cid, userid, date, message FROM comments');
 	$statement->execute();
-        while ($row = $statement->fetch(PDO::FETCH_ASSOC))
+        
+    while ($row = $statement->fetch(PDO::FETCH_ASSOC))
     {
     echo "<form method='POST' action='comments.php'>
-        <input type='hidden' name='cid' value='".$row['cid']."'>
         <input type='hidden' name='userid' value='anonymous'>
         <input type='hidden' name='date' value='".date('Y-m-d')."'>
         <textarea name='message'></textarea><br>
         <button type='submit' name='commentSubmit'>Comment</button>
-        </form>";
-        }
-    ?>
-    <h2>Comment Section</h2>
-    <?php
-    $statement = $db->prepare('SELECT cid, userid, date, message FROM comments');
-	$statement->execute();
+        </form>"
+    echo '<h2>Comment Section</h2>';
     
-    while ($row = $statement->fetch(PDO::FETCH_ASSOC))
-    {
         echo '<div class="comment">';
         echo $row['userid'] . ' ' . $row['date'] . '<br>';
         echo $row['message'];
