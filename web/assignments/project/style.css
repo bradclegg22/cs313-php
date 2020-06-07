@@ -47,6 +47,8 @@ a {
 
 .comment {
     background-color: #006400;
+    border-left: solid #1f618d 10px;
+    border-right: solid #1f618d 10px;
 }
 
 form {
