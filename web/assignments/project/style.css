@@ -48,3 +48,7 @@ a {
 .comment {
     background-color: #006400;
 }
+
+form {
+    display: inline;
+}
