@@ -78,7 +78,7 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
     {
         echo '<div class="comment">' . '<p>';
         echo $row['userid'] . ' ' . $row['date'] . '<br>';
-        echo $row['message'] . '</p>' . '<br><br>';
+        echo $row['message'] . '</p>' . '<br>';
         echo "<form class='delete' method='POST' action='deleteComment.php'>
         <input type='hidden' name='cid' value='".$row['cid']."'>
         <input type='hidden' name='date' value='".date('Y-m-d')."'>
