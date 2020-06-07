@@ -1,5 +1,6 @@
 <body>
     <?php
+    include('template.php');
     include('connectdp.php');
     $db = get_db();
     
