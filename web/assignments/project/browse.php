@@ -68,7 +68,7 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
         while ($row = $statement->fetch(PDO::FETCH_ASSOC))
     {
     echo "<form method='POST' action='comments.php'>
-        <input type='hidden' name='cid' value='".$row['cid']"'>
+        <input type='hidden' name='cid' value='".$row['cid']."'>
         <input type='hidden' name='userid' value='anonymous'>
         <input type='hidden' name='date' value='".date('Y-m-d')."'>
         <textarea name='message'></textarea><br>
