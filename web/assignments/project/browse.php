@@ -78,12 +78,13 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
     {
         echo '<div class="comment">';
         echo $row['userid'] . ' ' . $row['date'] . '<br>';
-        echo $row['message'] . '</p>';
+        echo $row['message'];
         echo "<form class='delete' method='POST' action='deleteComment.php'>
         <input type='hidden' name='cid' value='".$row['cid']."'>
         <input type='hidden' name='date' value='".date('Y-m-d')."'>
         <button type='submit' name='delete'>Delete</button>
         </form>";
+        echo . ' ';
          echo "<form method='POST' action='editComment.php'>
         <button type='submit' name='update'>Update</button>
         </form>";
