@@ -85,8 +85,7 @@ foreach ($db->query('SELECT name, price, description FROM products WHERE id = 1'
         <button type='submit' name='delete'>Delete</button>
         </form>";
          echo "<form method='POST' action='editComment.php'>
-                 <input type='hidden' name='cid' value='".$row['cid']."'>
-        <button type='submit' name='update' value='".$row['cid']"'>Update</button>
+        <button type='submit' name='update' value='".$row['cid']."'>Update</button>
         </form>";
         echo '</div>';
     }
