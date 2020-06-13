@@ -22,22 +22,25 @@ function onRequest(request, response) {
         }
 }
 
-function home(parameters) {
-        let response = parameters.response;
+function home(x) {
+        let response = x.response;
         const html = fs.readFileSync('helloworld.html').toString();
         response.writeHead(200, {'Content-Type': 'text/html'});
         response.end(html);
 }
 
-function getData(parameters) {
-        let response = parameters.response;
+function getData(x) {
+        let response = x.response;
         const json = '{"name":"Brad Clegg","class":"cs313"}';
         response.writeHead(200, {'Content-Type': 'application/json'});
         response.end(json);
 }
 
-function anythingElse(parameters) {
-        let response = parameters.response;
-        response.writeHead(404, {'Content-Type': 'text/plain'});
-        response.end('<h1>Page Not Found!</h1>');
+function anythingElse(x) {
+        let response = x.response;
+        const html = fs.readFileSync('404.html').toString();
+        response.writeHead(404, {'Content-Type': 'text/html'});
+        response.end(html);
 }
+
+console.log('Server running at http://localhost:8888/home');
