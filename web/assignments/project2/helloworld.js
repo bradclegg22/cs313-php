@@ -17,7 +17,7 @@ function onRequest(request, response) {
                 getData({response: response});
                 break;
         default:
-                defaultResponse({response: response});
+                anythingElse({response: response});
                 break;
         }
 }
@@ -27,22 +27,17 @@ function home(parameters) {
         const html = fs.readFileSync('helloworld.html').toString();
         response.writeHead(200, {'Content-Type': 'text/html'});
         response.end(html);
-        console.log('/home');
 }
 
 function getData(parameters) {
         let response = parameters.response;
-        const json = '{"name":"Br. Burton","class":"cs313"}';
+        const json = '{"name":"Brad Clegg","class":"cs313"}';
         response.writeHead(200, {'Content-Type': 'application/json'});
         response.end(json);
-        console.log('/getData');
 }
 
-function defaultResponse(parameters) {
+function anythingElse(parameters) {
         let response = parameters.response;
-        response.writeHead(200, {'Content-Type': 'text/plain'});
-        response.end('Hello World!\n');
-        console.log('/ {default}');
+        response.writeHead(404, {'Content-Type': 'text/plain'});
+        response.end('<h1>Page Not Found!</h1>');
 }
-
-console.log('Server running at http://localhost:8888/');
