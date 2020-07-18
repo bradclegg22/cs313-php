@@ -145,7 +145,7 @@ li {
 
 .img1 {
     display: flex;
-    background-image: url(../images/me1.jpg);
+    background-image: url(../images/me1.JPG);
     width: 50%;
     height: 500px;
     background-size: 100% 100%;
@@ -153,7 +153,7 @@ li {
 
 .img2 {
     display: flex;
-    background-image: url(../images/me2.JPG);
+    background-image: url(../images/me2.jpg);
     height: 500px;
     width: 50%;
     background-size: 100% 100%;
